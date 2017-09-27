@@ -1,8 +1,7 @@
-<!-- Author: Junhan Liu
-	Student number: 7228243
+<!-- 
 	CSI2132 project
 	created: 2017-03-30
-	Any reuse of the code must be notified by Junhan Liu
+	Any reuse of the code must notify the author
 	and must be granted by the author
 -->
 
@@ -52,10 +51,10 @@
 		</tr>
 	<?php
 	
-		$myname="jliu187";
-		$pass="J.jjj.12";
-		$host="web0.site.uottawa.ca";  
-		$port="15432";
+		$myname="";
+		$pass="";
+		$host="";  
+		$port="";
 		$dbconn = pg_pconnect("host=$host port=$port dbname=$myname user=$myname password=$pass")     
 		or die('Could not connect: ' . pg_last_error());
 		
