@@ -1,0 +1,95 @@
+<!doctype html>
+<!-- Author: Junhan Liu
+	Student number: 7228243
+	CSI2132 project
+	created: 2017-03-30
+	Any reuse of the code must be notified by Junhan Liu
+	and must be granted by the author
+-->
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>mainpage</title>
+<link href="css/simpleGrid.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Header -->
+  <header class="header">
+    <h4 class="logo">Smart Refrigerator</h4>
+  </header>
+  
+  <!-- Hero Section -->
+  <section class="intro">
+  
+   <div class="column">
+      <h3>JASH</h3>
+    <img src="images/head.jpg" alt="" class="profile"> 
+    </div>
+    
+    <div class="column">
+      <p><br><br><br>This application maintains a record of all food in the fridge. The fridge is able to give you wonderful experience by simply selecting commands. You can see the amount of food in the fridge along with a list of meal that can be made using the ingredients in the fridge. OKAY! Start your wonderful experience by clicking the buttons.</p>
+	</div>
+	
+  </section>
+  
+  <!-- Stats Gallery Section -->
+  <div class="gallery">
+   
+    <div class="thumbnail"> 
+    <a href="regularuser.php">
+     <img alt="" width="256" class="cards" src="http://images.gofreedownload.net/user-30013.jpg">
+		</a>
+      <h4>REGULAR USER</h4>
+	</div>
+       
+    
+    <div class="thumbnail chef"> 
+     <a href="chef.php"><img src="https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/677/580/386/m1/fpnw/wm1/.jpg?1394517083&s=0acf8319814714d612aa25a0d9317e63" alt="" width="2000" class="cards"/></a>
+      <h4>CHEF</h4>
+	</div>
+    
+
+    <div class="thumbnail"> 
+     <a href="adminPage.html"><img src="http://rajamainan.co.id/img/cms/supplier_icon.png" alt="" width="2000" class="cards"/></a>
+     
+      <h4>ADMINISTRATOR</h4>
+	</div>
+    
+   
+</div>
+
+<div class = "search d2">
+<center>
+	<form action="userRegister.php" method = "post" >
+		<input type = "text" value="New user click red button to register">
+		<button type ="submit"></button>
+	</form>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	
+	<form action="chefRegister.php" method = "post" >
+		<input type = "text" value="&#60 New Chef click red button to register">
+		<button type ="submit"></button>
+	</form>
+</center>
+</div>
+
+
+ 
+ <!-- Reprot buttons go here-->
+  <div>&nbsp;</div>
+  <!-- end of report buttons-->
+  
+  
+<!-- Footer Section -->
+  <!-- Copyrights Section -->
+  <div class="copyright">&copy;2017 - <strong>Jash</strong></div>
+</div>
+<!-- Main Container Ends -->
+</body>
+</html>
